@@ -36,7 +36,7 @@ export default class login extends Component {
     return (
       <div>
         <Form className="login-form">
-          <h2 className="text-center">Welcome to React Calendar App {this.state.name}</h2>
+          <h2 className="text-center">Welcome to React Calendar App{this.state.name}</h2>
           <h3>{this.state.email}</h3>
           <img src={this.state.imageUrl} alt={this.state.name} />
           <FormGroup>
