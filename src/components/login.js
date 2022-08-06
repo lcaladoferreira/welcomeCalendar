@@ -36,10 +36,7 @@ export default class login extends Component {
     return (
       <div>
         <Form className="login-form">
-          <h1 className="text-center">
-            <span className="font-weight-bold">Login Form</span>
-          </h1>
-          <h2 className="text-center">Welcome {this.state.name}</h2>
+          <h2 className="text-center">Welcome to React Calendar App {this.state.name}</h2>
           <h3>{this.state.email}</h3>
           <img src={this.state.imageUrl} alt={this.state.name} />
           <FormGroup>
@@ -50,7 +47,7 @@ export default class login extends Component {
             <Label>Password</Label>
             <Input type="password" placeholder="Password" />
           </FormGroup>
-          <Button className="btn-lg btn-block">Log in</Button>
+          <Button className="btn-lg btn-block"><a href="https://scheduler-sooty.vercel.app/">Log in</a></Button>
           <div className="text-center pt-3">Or</div>
           <FacebookLoginButton className="mt-3 mb-3" />
           <GoogleLoginButton buttonText="Login" className="mt-3 mb-3" />

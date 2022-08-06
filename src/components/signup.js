@@ -10,10 +10,8 @@ export default class signup extends Component {
     return (
       <div>
         <Form className="signup-form">
-          <h1 className="text-center">
-            <span className="font-weight-bold">Sign Up Form</span>
-          </h1>
-          <h2 className="text-center">Welcome</h2>
+          
+          <h2 className="text-center">Welcome to  React Calendar App</h2>
           <FormGroup>
             <Input type="text" placeholder="Name" />
           </FormGroup>
